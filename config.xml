@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "com.crt.app"
+    id          = "com.phonegap.example"
+    versionCode = "10"
+    version     = "1.0." >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>App Cacloclo Interessere</name>
+
+  <description>
+      app per calcolare l'interesse semplice
+  </description>
+
+  <author email="pele.damaris@canossamilano.org">
+      Damaris Pele
+  </author>
+  <icon src="icona.png" platform="android" qualifier="ldpi"/>
+  <icon src="icona.png" platform="android" qualifier="mdpi"/>
+  <icon src="icona.png" platform="android" qualifier="hdpi"/>
+  
+  <icon src="icona.png" platform="ios" qualifier="ldpi"/>
+  <icon src="icona.png" platform="ios" qualifier="mdpi"/>
+  <icon src="icona.png" platform="ios" qualifier="hdpi"/>
+   
+   <!-- Abilita l'accesso al web -->
+   <access origin="*"/>
+   <plugin name="cordova-plugin-whitelist" socurce="npm"/>
+  <!-- Accesso a skeleton per css -->
+<allow-navigation href="*://*getskeleton.com/*"/>
+</widget>
